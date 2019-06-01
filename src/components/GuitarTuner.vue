@@ -47,7 +47,8 @@
   </div>
 </template>
 <script>
-import audioUnlock from "../lib/audioUnlock";
+import audioUnlock from "../lib/audioUnlock.js";
+
 export default {
   data() {
     const AudioContext = window.AudioContext || window.webkitAudioContext; // 跨瀏覽器
